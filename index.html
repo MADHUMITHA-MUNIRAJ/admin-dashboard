@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Admin Dashboard</h1>
+      <p>Welcome, Admin</p>
+    </header>
+    <div class="dashboard">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#statistics">Statistics</a></li>
+          <li><a href="#charts">Reports</a></li>
+          <li><a href="#users">Users</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </aside>
+
+      <main class="main-content" id="overview">
+        <!-- Statistics -->
+        <section class="stats" id="statistics">
+          <div class="stat-card">
+            <h3>Total Users</h3>
+            <p>1,250</p>
+          </div>
+
+          <div class="stat-card">
+            <h3>Total Sales</h3>
+            <p>₹45,000</p>
+          </div>
+
+          <div class="stat-card">
+            <h3>Orders</h3>
+            <p>320</p>
+          </div>
+
+          <div class="stat-card">
+            <h3>Revenue</h3>
+            <p>₹75,000</p>
+          </div>
+        </section>
+
+        <section class="charts" id="charts">
+          <div class="chart-card">
+            <h2>Sales Overview</h2>
+            <div class="chart-placeholder">Sales Chart</div>
+          </div>
+
+          <div class="chart-card">
+            <h2>User Growth</h2>
+            <div class="chart-placeholder">Growth Chart</div>
+          </div>
+        </section>
+
+        <section class="table-section" id="users">
+          <h2>Recent Users</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>john@example.com</td>
+                <td>Active</td>
+              </tr>
+
+              <tr>
+                <td>Sarah</td>
+                <td>sarah@example.com</td>
+                <td>Active</td>
+              </tr>
+
+              <tr>
+                <td>David</td>
+                <td>david@example.com</td>
+                <td>Inactive</td>
+              </tr>
+
+              <tr>
+                <td>Emma</td>
+                <td>emma@example.com</td>
+                <td>Active</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
