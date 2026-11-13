@@ -27,3 +27,6 @@ A responsive admin dashboard built using HTML and CSS.
 
 ## Author
 Web Development Student
+
+## Dashboard Update
+Added responsive dashboard layout and statistics.
